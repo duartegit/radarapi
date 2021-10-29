@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\lucas\flask-sqlalchemy\radar
+set VIRTUAL_ENV=C:\Users\administrator\Desktop\flask-sqlalchemy\radar
 
 if not defined PROMPT set PROMPT=$P$G
 
