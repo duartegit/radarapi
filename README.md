@@ -55,14 +55,27 @@ GET '../api/competicao/{x}';
 
 ## Ambiente para Teste de methods
 
-Para se testar a api e os methods (GET,POST,PUT,DELETE), foi criado uma documentação swagger.json, para que seja possível testes e validação de API.
-Lá se encontra essa seguinte interface:
-
+Para se testar a api e os methods (GET,POST,PUT,DELETE), foi criado uma documentação swagger.json, para que seja possível testes e validação de API, que pode ser acessado em:
 
 ```sh
-make install
-npm test
+'../api/doc';
 ```
+
+Lá se encontra essa seguinte interface:
+
+![interface](https://user-images.githubusercontent.com/50371525/139464835-5a44a803-ab00-4c28-9e9d-11f13e46b45d.jpg)
+
+Assim pode-se testar a API da seguinte forma:
+
+![POST_1](https://user-images.githubusercontent.com/50371525/139465546-e8501dc5-9e35-4bad-924d-8348ffc863eb.jpg)
+
+Dê um click na ação desejada (GET,POST,PUT,DELETE), logo após clique no botão: "Try it out" e deverá abrir o método desejado com os VALORES EDITÁVEIS:
+
+![POST_2](https://user-images.githubusercontent.com/50371525/139466245-0c9db316-ffb1-4c93-81a0-9a6ca78b3a0d.jpg)
+
+Após fazer suas alterações, note que, o payload é requirido, ou seja, todos os atributos são obrigatórios(PS: CAMPO Enc é para saber se a competição está em andamento ou foi encerrada, 0 para em andamento, 1 para encerrada). E é só clicar em EXECUTE:
+
+![POST_3](https://user-images.githubusercontent.com/50371525/139468415-14419510-136c-4fdb-9185-002ff0e73d35.jpg)
 
 
 ## Contato
